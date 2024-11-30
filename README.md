@@ -102,7 +102,7 @@ DELETE /yiyan/sentences/{id}/
 
 - 项目使用 SQLite 作为默认数据库
 - 已配置 CORS，默认允许来自 `https://blog.honahec.cc` 的请求
-- 已配置 ALLOWED_HOST，默认允许`api.honahec.cc`
+- 已配置 ALLOWED_HOST，默认允许 `api.honahec.cc`
 - 所有 API 路由都以 `/yiyan/` 为前缀
 
 ## 注意事项

@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gm0!prwcze71ee7wqpae&3mu6#ga!9i4&$#hixj!n4q=##2j)x
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'api.hoanhec.cc'
+    'api.honahec.cc',
 ]
 
 # Application definition
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ORIGINS = [
+CORS_ALLOWED_ORIGINS = [
     'https://blog.honahec.cc'
 ]
 
