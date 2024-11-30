@@ -1,4 +1,4 @@
-# Yiyan API
+# 一言 API
 
 一个简单的"一言"API服务，基于Django REST framework构建。可以随机返回一句话，支持添加、修改、删除句子。
 
