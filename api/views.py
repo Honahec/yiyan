@@ -10,7 +10,7 @@ from .serializers import SentenceSerializer
 
 
 # Create your views here.
-class SentenceViewSet(viewsets.ModelViewSet):
+class SentenceViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Sentence.objects.all()
     serializer_class = SentenceSerializer
 
