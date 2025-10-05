@@ -59,6 +59,11 @@ CORS_ALLOWED_ORIGINS = [
     'https://blog.honahec.cc'
 ]
 
+CSRF_TRUST_ORIGINS = [
+    'https://blog.honahec.cc',
+    'https://api.honahec.cc'
+]
+
 ROOT_URLCONF = 'yiyan.urls'
 
 TEMPLATES = [
